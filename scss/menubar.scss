@@ -1,0 +1,44 @@
+@import 'config.scss';
+#page{
+   #landingGrid{
+
+
+      #innerGrid{
+         position: fixed;
+         z-index: 5;
+
+         .menuItem{
+            z-index: 6;
+            grid-row:1/4;
+            font-family: condor, sans-serif;
+            font-size: calc(7px + 1vmax);
+            padding-top: 0.2vmax;
+            color: $darkGrey;
+            height: 3vmax;
+            margin-left: -1.1vmax;
+
+            .itemWrapper{
+               padding: 3px;
+               cursor: pointer;
+
+            }
+
+            
+            .bulletSpan{
+               font-weight: 400;
+               text-decoration: line-through;
+            }
+         }
+         
+         #inspirationItem{
+            grid-column: 3;
+         }
+         #classTasksItem{
+            grid-column: 4;
+         }
+         #tshirtsItem{
+            grid-column: 5;
+         }
+      }
+   }
+}

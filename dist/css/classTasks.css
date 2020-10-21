@@ -1,0 +1,72 @@
+.current #classTasksBody {
+  position: absolute;
+  display: grid;
+  width: 100%;
+  height: 5000px;
+  grid-template-rows: repeat(90, 20vmax);
+  grid-template-columns: 2fr 3fr 3.5fr 3.5fr 3.5fr 3.5fr 3fr;
+  margin-top: 80%; }
+
+.current #task1 {
+  position: absolute;
+  display: grid;
+  width: 100%;
+  height: 50vmax;
+  grid-template-rows: repeat(10, 15vmax);
+  grid-template-columns: 2fr 3fr 3.5fr 3.5fr 3.5fr 3.5fr 3fr;
+  z-index: 20; }
+  .current #task1 .task1Image {
+    width: auto;
+    height: auto;
+    background: yellow;
+    border: 2px solid black; }
+  .current #task1 #task1Image1 {
+    background: url("../../images/task1-images/image1.png");
+    background-size: cover;
+    grid-row: 1;
+    grid-column: 4; }
+  .current #task1 #task1Image2 {
+    background: url("../../images/task1-images/image2.jpg");
+    background-size: cover;
+    grid-row: 2;
+    grid-column: 6; }
+  .current #task1 #task1Image3 {
+    background: url("../../images/task1-images/image3.png");
+    background-size: cover;
+    grid-row: 3;
+    grid-column: 4; }
+  .current #task1 #task1Image4 {
+    background: url("../../images/task1-images/image4.png");
+    background-size: cover;
+    grid-row: 4;
+    grid-column: 6; }
+  .current #task1 #task1Image5 {
+    background: url("../../images/task1-images/image5.png");
+    background-size: cover;
+    grid-row: 5;
+    grid-column: 4; }
+  .current #task1 #task1Image6 {
+    background: url("../../images/task1-images/image6.png");
+    background-size: cover;
+    grid-row: 6;
+    grid-column: 6; }
+  .current #task1 #task1Image7 {
+    background: url("../../images/task1-images/image7.png");
+    background-size: cover;
+    grid-row: 7;
+    grid-column: 4; }
+  .current #task1 #task1Image8 {
+    background: url("../../images/task1-images/image8.png");
+    background-size: cover;
+    grid-row: 8;
+    grid-column: 6; }
+  .current #task1 #task1Image9 {
+    background: url("../../images/task1-images/image9.png");
+    background-size: cover;
+    grid-row: 9;
+    grid-column: 4; }
+  .current #task1 #task1Image10 {
+    background: url("../../images/task1-images/image10.png");
+    background-size: cover;
+    grid-row: 10;
+    grid-column: 6; }
