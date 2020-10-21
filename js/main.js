@@ -1,5 +1,9 @@
 
 $(document).ready(function () {
+
+
+   var cw = $('#task1Image1').width();
+   $('.child').css({'height':cw+'px'});
    // handles reloads
    let hash = window.location.hash;
    if (hash == '#inspiration') {

@@ -1,0 +1,40 @@
+#task2 {
+  position: absolute;
+  display: grid;
+  width: 100%;
+  height: 100vmax;
+  grid-row: 13;
+  grid-template-rows: repeat(7, 20vmax);
+  grid-template-columns: 2fr 3fr 3.5fr 3.5fr 3.5fr 3.5fr 3fr;
+  row-gap: 6vmax;
+  z-index: 2; }
+  #task2 #task2ContentWrapper {
+    position: relative;
+    grid-row: 1/6;
+    grid-column: 4 /7; }
+    #task2 #task2ContentWrapper #albumCoverMain {
+      content: url("../images/task2-images/image1.png");
+      background-size: cover;
+      width: 100%;
+      height: auto; }
+    #task2 #task2ContentWrapper #rationale {
+      padding-top: 1vmax;
+      background: rgba(255, 255, 255, 0.719); }
+    #task2 #task2ContentWrapper #albumCoverSecond {
+      position: absolute;
+      content: url("../images/task2-images/image2.png");
+      background-size: cover;
+      width: 100%;
+      height: auto;
+      bottom: 5vmax; }
+
+#task3 {
+  position: absolute;
+  display: grid;
+  width: 100%;
+  height: 60vmax;
+  grid-row: 20/21;
+  grid-template-rows: repeat(7, 20vmax);
+  grid-template-columns: 2fr 3fr 3.5fr 3.5fr 3.5fr 3.5fr 3fr;
+  row-gap: 6vmax;
+  z-index: 2; }
