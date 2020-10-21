@@ -10,7 +10,7 @@
   height: 60vmax;
   grid-column: 2/ 7;
   grid-row: 3/7;
-  background: url("../../images/deepart-portrait-flipped.jpg");
+  background: url("../images/deepart-portrait-flipped.jpg");
   background-size: cover;
   transform: rotate3d(1, 0.5, 0.6, -40deg);
   margin-left: 10vmax; }
