@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+  box-sizing: border-box;
+  overflow: visible; }
+
+#sidebarWrapper {
+  position: fixed;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  right: 0;
+  z-index: 6; }
+
+#sidebar {
+  position: relative;
+  height: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+  #sidebar .sidebarItem {
+    z-index: 6;
+    font-family: condor, sans-serif;
+    font-size: calc(7px + 1vmax);
+    color: #1f1f1f; }

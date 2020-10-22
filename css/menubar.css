@@ -5,6 +5,13 @@
   box-sizing: border-box;
   overflow: visible; }
 
+.itemWrapper {
+  padding: 3px;
+  cursor: pointer; }
+
+.bulletSpan {
+  font-weight: 900; }
+
 #page #landingGrid #innerGrid {
   position: fixed;
   z-index: 5; }
@@ -16,13 +23,7 @@
     padding-top: 0.2vmax;
     color: #1f1f1f;
     height: 3vmax;
-    margin-left: -1.1vmax; }
-    #page #landingGrid #innerGrid .menuItem .itemWrapper {
-      padding: 3px;
-      cursor: pointer; }
-    #page #landingGrid #innerGrid .menuItem .bulletSpan {
-      font-weight: 400;
-      text-decoration: line-through; }
+    margin-left: -1.6vmax; }
   #page #landingGrid #innerGrid #inspirationItem {
     grid-column: 3; }
   #page #landingGrid #innerGrid #classTasksItem {
