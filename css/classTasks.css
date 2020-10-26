@@ -34,6 +34,12 @@
   overflow: hidden;
   padding-left: 0.5vmax; }
 
+.current #taskTitleWrapper8 {
+  grid-row: 1/19;
+  grid-column: 1/3;
+  overflow: hidden;
+  padding-left: 0.5vmax; }
+
 .current .taskTitle {
   width: 100%;
   height: 100%;
@@ -91,6 +97,11 @@
     margin-top: -10vmax; }
 
 .current #task6Title {
+  font-size: 14vmax;
+  width: 100%;
+  padding-left: 5vmax; }
+
+.current #task8Title {
   font-size: 14vmax;
   width: 100%;
   padding-left: 5vmax; }

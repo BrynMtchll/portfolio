@@ -22,12 +22,12 @@
   margin-top: 7vmax;
   margin-bottom: 8.5vmax; }
 
-.researchImage1 {
+.topResearchImage {
   width: 100%;
   border: 1px solid black;
   border-bottom: none; }
 
-.researchImage2 {
+.bottomResearchImage {
   width: 100%;
   border: 1px solid black;
   border-top: none;
@@ -45,7 +45,7 @@
 
 .solution {
   width: 100%;
-  border: 1px solid black;
+  border: 0.5px solid black;
   margin-bottom: 8.5vmax; }
 
 #task2 {
@@ -79,9 +79,9 @@
     position: relative;
     grid-row: 1/10;
     grid-column: 4/7; }
-  #task3 #task3ResearchImage1 {
+  #task3 #task3topResearchImage {
     content: url("../images/task3-images/image1.png"); }
-  #task3 #task3ResearchImage2 {
+  #task3 #task3bottomResearchImage {
     content: url("../images/task3-images/image2.png"); }
   #task3 #task3Concepts {
     height: 500px; }
@@ -115,11 +115,13 @@
     position: relative;
     grid-row: 1/10;
     grid-column: 4/7; }
+  #task6 #dcShirt {
+    content: url("../images/task6-images/image0.png"); }
   #task6 #brief {
     margin-bottom: 10vmax; }
-  #task6 #task6ResearchImage1 {
+  #task6 #task6topResearchImage {
     content: url("../images/task6-images/image1.png"); }
-  #task6 #task6ResearchImage2 {
+  #task6 #task6bottomResearchImage {
     content: url("../images/task6-images/image2.png"); }
   #task6 #task6Concepts {
     height: 500px; }
@@ -141,3 +143,38 @@
     float: left; }
   #task6 #task6Solution {
     content: url("../images/task6-images/image7.png"); }
+
+#task8 {
+  grid-row: 73/90;
+  grid-template-rows: repeat(15, 20vmax); }
+  #task8 #task6ContentWrapper {
+    position: relative;
+    grid-row: 1/10;
+    grid-column: 4/7; }
+  #task8 #brief {
+    margin-bottom: 10vmax; }
+  #task8 #task8topResearchImage {
+    content: url("../images/task8-images/image1.png"); }
+  #task8 #task8bottomResearchImage {
+    content: url("../images/task8-images/image2.png");
+    margin-top: -1vmax; }
+  #task8 #task8Concepts {
+    height: 500px; }
+  #task8 #task8Development1 {
+    content: url("../images/task8-images/image3.png");
+    margin-bottom: 1vmax;
+    width: 60%;
+    float: left;
+    border: 3px solid black; }
+  #task8 #task8Development2 {
+    content: url("../images/task8-images/image4.png");
+    margin-bottom: 1vmax;
+    width: 60%;
+    float: right;
+    border: 3px solid black; }
+  #task8 #task8Development3 {
+    content: url("../images/task8-images/image5.png");
+    width: 60%;
+    float: left; }
+  #task8 #task8Solution {
+    content: url("../images/task8-images/image7.png"); }
