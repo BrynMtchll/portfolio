@@ -157,6 +157,20 @@
       content: url("../images/task7-image.png");
       width: 100%;
       border: 0.2px solid rgba(255, 0, 149, 0.479); }
+    #task7 #task7ContentWrapper .referenceWrapper {
+      margin-top: 1%;
+      margin-bottom: 1%; }
+    #task7 #task7ContentWrapper .reference {
+      text-decoration: none; }
+    #task7 #task7ContentWrapper .references {
+      width: 50%;
+      margin-top: 5%; }
+    #task7 #task7ContentWrapper #rightReferences {
+      right: 0; }
+    #task7 #task7ContentWrapper #leftReferences {
+      left: 0; }
+    #task7 #task7ContentWrapper .reference:hover {
+      text-decoration: line-through; }
 
 #task8 {
   grid-row: 88/100;
