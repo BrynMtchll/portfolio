@@ -17,6 +17,9 @@ $(document).ready(function () {
    $('#sidebarItem6Link').on('click', function (e) {
       location.href = "#taskAnchor6";
    });
+   $('#sidebarItem7Link').on('click', function (e) {
+      location.href = "#taskAnchor7";
+   });
    $('#sidebarItem8Link').on('click', function (e) {
       location.href = "#taskAnchor8";
    });

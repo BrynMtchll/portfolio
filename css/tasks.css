@@ -144,8 +144,22 @@
   #task6 #task6Solution {
     content: url("../images/task6-images/image7.png"); }
 
+#task7 {
+  height: 200vmax;
+  grid-row: 73/85;
+  grid-template-rows: repeat(19, 20vmax);
+  row-gap: 6vmax; }
+  #task7 #task7ContentWrapper {
+    position: relative;
+    grid-row: 1/5;
+    grid-column: 4 /7; }
+    #task7 #task7ContentWrapper #task7Image {
+      content: url("../images/task7-image.png");
+      width: 100%;
+      border: 0.2px solid rgba(255, 0, 149, 0.479); }
+
 #task8 {
-  grid-row: 73/90;
+  grid-row: 88/100;
   grid-template-rows: repeat(15, 20vmax); }
   #task8 #task6ContentWrapper {
     position: relative;
